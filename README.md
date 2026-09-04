@@ -1,9 +1,9 @@
-# Idiographic Memory
+# PlastFormer
 
-**Self-governed parametric memory with multi-timescale decay for frozen-core transformers.**
+**Self-governed idiographic memory for frozen-core transformers.**
 
-- **Paper (draft v0.2):** [`preprint.md`](preprint.md)
-- **Module name:** PlastFormer (plastic + transformer)
+- **Paper (draft v0.3):** [`preprint.md`](preprint.md)
+- **Naming:** PlastFormer — the system; idiographic memory — the property it implements (frozen nomothetic core + plastic per-instance biography, after Windelband)
 - **Author:** Alexey Voronin, Aurum Estate LLC
 - **License:** Apache 2.0
 - **Status:** architecture + pre-registered evaluation design; no measured results yet
@@ -12,7 +12,7 @@
 
 A transformer memory architecture in which every semantic decision about memory — what to name, what to repeat, what to connect, what to surface — is made by the model itself, while the environment provides only physics: write-cost schedule, decay constants, tick rate, immutability of recorded content, and an external append-only audit journal.
 
-The core split (after Windelband): a frozen **nomothetic core** (general laws: language, reasoning, culture) plus a plastic **idiographic module**, PlastFormer (the unique biography of one instance).
+The core split (after Windelband): a frozen **nomothetic core** (general laws: language, reasoning, culture) plus a plastic **idiographic module** — the unique biography of one instance.
 
 ## Emergent claims (falsifiable)
 
@@ -26,7 +26,7 @@ Anchored in LongMemEval (S/M) and LoCoMo, plus custom experiments E1–E5. See S
 
 ## Naming
 
-Formerly circulated under the working name "Matryoshka" — renamed to avoid collision with Matryoshka Representation Learning and the nested-granularity namespace. Repositories `matryoshka` (theory, experiments) and `matryoshka-mmi` (module prototype) will be consolidated here / under `plastformer`.
+**PlastFormer is the system name; idiographic memory is the concept term — brand in the title, differentiator in the subtitle** (the pattern of MemGPT and Titans). Formerly circulated under the working name "Matryoshka" — renamed to avoid collision with Matryoshka Representation Learning and the nested-granularity namespace; the mechanism is superposition of decaying amplitudes, not nesting. Repositories `matryoshka` (theory, experiments) and `matryoshka-mmi` (module prototype) will be consolidated here.
 
 ## Background
 
